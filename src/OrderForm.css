@@ -1,0 +1,80 @@
+/* src/OrderForm.css */
+.order-form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .order-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: #4caf50;
+  }
+  /* src/OrderForm.css */
+.order-form-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .order-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .order-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .order-form .form-group input,
+  .order-form .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .order-form .cake-order-group {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-cake-btn, .submit-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  
